@@ -1,0 +1,14 @@
+.block__container-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0;
+}
+
+@media screen and (max-width: 376px) { 
+    .block__container-text {
+        font-size: 14px;
+        line-height: 20px;
+        word-break: break-all;
+    }
+}

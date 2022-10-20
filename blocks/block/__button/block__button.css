@@ -1,0 +1,18 @@
+.block__button {
+    width: 73px;
+    border: 1px;
+    background: #C5DCFF;
+    border-radius: 11px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 6px;
+    cursor: pointer;
+
+}
+
+.block__button:hover {
+    background: #6BA6FF;
+    transition: 0.2s linear;
+    color: white;
+}

@@ -1,0 +1,22 @@
+.block {
+    display: flex;
+    max-width: 1106px;
+    margin-top: 65px;
+    margin-left: 184px;
+    position: relative;
+    border: 0.5px solid #8E8E8E;
+    border-radius: 15px;
+}
+
+.block:last-of-type {
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 376px) { 
+    .block {
+        margin-left: 16px;
+        width: 341px;
+        height: 640px;
+        flex-direction: column;
+    }
+}

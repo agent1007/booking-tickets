@@ -1,0 +1,9 @@
+.block__containers {
+    display: flex;
+}
+
+@media screen and (max-width: 376px) { 
+    .block__containers {
+        flex-direction: column;
+    }
+}
