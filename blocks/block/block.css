@@ -14,9 +14,10 @@
 
 @media screen and (max-width: 376px) { 
     .block {
+        margin-top: 30px;
         margin-left: 16px;
         width: 341px;
-        height: 640px;
+        
         flex-direction: column;
     }
 }

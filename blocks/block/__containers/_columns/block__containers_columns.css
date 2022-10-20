@@ -2,3 +2,10 @@
     flex-direction: column;
     margin-left: 22px;
 }
+
+
+@media screen and (max-width: 376px) { 
+    .block__containers_columns {
+        margin-left: 12px;
+    }
+}

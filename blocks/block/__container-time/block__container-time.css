@@ -1,6 +1,6 @@
 .block__container-time {
     display: grid;
-    grid-template-columns: repeat(4, 63px);
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 6px;
     row-gap: 10px;
     list-style-type : none;
@@ -11,6 +11,7 @@
 
 @media screen and (max-width: 376px) { 
     .block__container-time {
+        grid-template-columns: repeat(4, 63px);
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 2;

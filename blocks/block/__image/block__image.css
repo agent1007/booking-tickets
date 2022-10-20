@@ -1,12 +1,13 @@
 .block__image{
     width: 473px;
     height: 369px;
-    border-radius: 15px;
+    
 }
 
 @media screen and (max-width: 376px) { 
     .block__image {
         width: 341px;
         height: 220px;
+        border-top-right-radius: 15px;
     }
 }

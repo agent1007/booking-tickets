@@ -11,6 +11,6 @@
 
 **Ссылка на проектную работу**
 
-* [Ссылка на проектную работу](https://agent1007.github.io/authentication/)
+* [Ссылка на проектную работу](https://agent1007.github.io/booking-tickets/)
 
 
